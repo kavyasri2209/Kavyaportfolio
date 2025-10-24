@@ -283,7 +283,7 @@ section {
     border-top: 50vh solid var(--main-color);
     border-right: 384px solid var(--main-color);
     border-bottom: 50vh solid var(--main-color);
-    border-left: 384px solid transparent;
+    border-left: 550px solid transparent;
 }
 
 .home-img img {
