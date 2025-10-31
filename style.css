@@ -248,11 +248,16 @@ section {
 }
 
 .home .profession-box .profession:nth-child(1) i {
-    margin-right: 15px;
+    margin-right: 30px;
 }
-
-.home .profession-box .profession:nth-child(2),
-.home .profession-box .profession:nth-child(4) {
+.home .profession-box .profession:nth-child(2) i{
+    margin-right: 30px;
+}
+.home .profession-box .profession:nth-child(3) i{
+    margin-right: 10px;
+}
+.home .profession-box .profession:nth-child(2) ,
+.home .profession-box .profession:nth-child(3) {
     padding-bottom: 20px;
 }
 
@@ -380,9 +385,10 @@ span {
     position: relative;
     padding: 1.5rem;
     border: .2rem solid var(--main-color);
-    border-radius: .6rem;
+    border-radius: 3rem;
     margin-bottom: 2rem;
     overflow: hidden;
+
 }
 
 .education-content .content::before {
@@ -467,7 +473,7 @@ span {
 .skills-box .skills-content {
     position: relative;
     border: .2rem solid var(--main-color);
-    border-radius: .6rem;
+    border-radius: 3rem;
     padding: .5rem 1.5rem;
     z-index: 1;
     overflow: hidden;
@@ -506,7 +512,7 @@ span {
 
 .skills-content .progress .bar {
     height: 2.5rem;
-    border-radius: .6rem;
+    border-radius: 3rem;
     border: .2rem solid var(--main-color);
     padding: .5rem;
     margin: 1rem 0;
