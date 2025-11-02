@@ -23,6 +23,12 @@
     background: var(--main-color);
     color: var(--bg-color);
 }
+.logo {
+  font-family: "Pacifico", cursive;   /* or "Dancing Script" */
+  font-size: 2.5rem;
+  color: #fe7504;
+  text-decoration: none;
+}
 
 .dark-mode {
     --bg-color: #0b061f;
@@ -59,7 +65,7 @@ body {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: var(--main-color);
     font-weight: 600;
     margin-right: auto;
@@ -115,7 +121,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    padding: 5rem 7% 2rem;
 }
 
 .home {
@@ -435,18 +441,23 @@ span {
     
 }
 
-.skills h2 {
+/* .skills h2 {
     
-    display: inline-block;
+    display: block;
     left: 50%;
     transform: translateX(-50%);
      margin-top: 20px;
     margin-bottom: 80px;
     margin-left: 20%;
-    
+    text-align: center;
    
   
    
+} */
+.skills h2 {
+  text-align: center;
+  display: block;
+  margin: 40px auto 80px;
 }
 
 .skills .skills-row {
@@ -1160,38 +1171,4 @@ textarea.input-field {
 }
 img {
     border-radius: 20px;
-}
-@media(max-width: 425px){
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-}
-#about {
-  margin-top: 0;
-  padding-top: 0;
-}
-/* .about-img img {
-    width: 40vw;
-} */
-
-.heading {
-    font-size: 4.5rem;
-    text-align: center;
-}
-
-.about-content h2 {
-    text-align: center;
-    line-height: 1.2;
-}
-
-.about-content h3 {
-    font-size: 2rem;
-}
-
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-}
 }
