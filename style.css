@@ -14,7 +14,7 @@
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #fe7504;
+    --main-color: #9f212c;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -1160,4 +1160,38 @@ textarea.input-field {
 }
 img {
     border-radius: 20px;
+}
+@media(max-width: 425px){
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#about {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* .about-img img {
+    width: 40vw;
+} */
+
+.heading {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.about-content h2 {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 2rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 }
