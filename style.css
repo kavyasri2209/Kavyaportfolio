@@ -277,13 +277,56 @@ section {
     font-weight: 600;
 }
 
-.home .profession-box .circle {
+/* .home .profession-box .circle {
     width: 560px;
     height: 560px;
     border: 3px solid var(--main-color);
     border-radius: 50%;
     z-index: -1;
+} */
+.home .profession-box .circle {
+  width: 35vw;
+  height: 35vw;
+  max-width: 560px;
+  max-height: 560px;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.3s ease; /* smooth resize */
 }
+
+/* tablet screens */
+@media (max-width: 992px) {
+  .home .profession-box .circle {
+    width: 45vw;
+    height: 45vw;
+    max-width: 420px;
+    max-height: 420px;
+  }
+}
+
+/* smaller tablets or landscape phones */
+@media (max-width: 768px) {
+  .home .profession-box .circle {
+    width: 55vw;
+    height: 55vw;
+    max-width: 350px;
+    max-height: 350px;
+    position: relative; /* make sure it doesn’t stay fixed */
+    margin: 0 auto;
+  }
+}
+
+/* mobile screens */
+@media (max-width: 480px) {
+  .home .profession-box .circle {
+    width: 65vw;
+    height: 65vw;
+    max-width: 280px;
+    max-height: 280px;
+  }
+}
+
 
 .home .profession-container .overlay {
     position: absolute;
@@ -1164,11 +1207,11 @@ textarea.input-field {
     }
 }
 
-@media (max-width: 315px) {
+/* @media (max-width: 315px) {
     .home-content h1 {
         font-size: 4.5rem;
     }
 }
 img {
     border-radius: 20px;
-}
+} */
