@@ -308,8 +308,8 @@ section {
 /* smaller tablets or landscape phones */
 @media (max-width: 768px) {
   .home .profession-box .circle {
-    width: 55vw;
-    height: 55vw;
+    width: 45vw;
+    height: 45vw;
     max-width: 350px;
     max-height: 350px;
     position: relative; /* make sure it doesn’t stay fixed */
@@ -320,8 +320,8 @@ section {
 /* mobile screens */
 @media (max-width: 480px) {
   .home .profession-box .circle {
-    width: 65vw;
-    height: 65vw;
+    width: 45vw;
+    height: 45vw;
     max-width: 280px;
     max-height: 280px;
   }
